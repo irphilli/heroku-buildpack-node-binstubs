@@ -14,4 +14,4 @@ chmod 755 $BUILD_DIR/.binstubs/bin/node
 touch $BUILD_DIR/.binstubs/bin/yarn
 chmod 755 $BUILD_DIR/.binstubs/bin/yarn
 
-echo 'export PATH="$HOME/.binstubs/bin:$PATH"' >> "$BP_DIR/export"
+echo 'export PATH="$BUILD_DIR/.binstubs/bin:$PATH"' >> "$BP_DIR/export"
